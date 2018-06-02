@@ -33,12 +33,6 @@ $(document).ready(function () {
       function loop(x, y) {
         entire_article += "<div class='flex-rows'>"
         for (var i = x; i < y; i++) {
-          // let month = new Date(object_info.docs[i].pub_date).getUTCMonth();
-          // let date = new Date(object_info.docs[i].pub_date).getUTCDate();
-          // let year = new Date(object_info.docs[i].pub_date).getUTCFullYear();
-          // // let date = month.getMonth() + '/' + month.getDay() + '/' + month.getFullYear()
-          // console.log('Month = ' + (parseInt(month) + 1) + ' Date = ' + date + ' Year = ' + year);
-          // // console.log(date);
 
           entire_article += "<div class='box_" + (i + 1) + " boxes'>"
           entire_article += "<a href='" + JSON.stringify(object_info.docs[i].web_url)
