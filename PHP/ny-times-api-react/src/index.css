@@ -1,13 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Playfair+Display:400,700,900|Open+Sans');
+/* fonts
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF;
+  color: #000;
+  padding-bottom: 15px;
+  font-family: 'Roboto Slab', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1,
+h3,
+h4,
+.main-title {
+  font-family: 'Playfair Display', serif;
+}
+
+.main-title {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h4 {
+  padding: .5em 0 0 0;
+  margin: 4px 0 0 0;
+}
+
+h4 span {
+  font-weight: 700;
+}
+
+button,
+.input-group-text {
+  background-color: #111;
+  color: #fff;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.articles-div {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.main-title {
+  margin: 20px 0;
+}
+
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-btn>.btn {
+  border-radius: 0;
+}
+
+.input-group>.custom-select:not(:last-child),
+.input-group>.form-control:not(:last-child),
+.input-group>.input-group-append>.input-group-text {
+  border-radius: 0;
+}
+
+.articles-div a {
+  color: #000;
+  text-decoration: none;
+}
+
+.articles-div h3 {
+  margin-top: 0;
+}
+
+.articles-div p {
+  margin-bottom: 12px;
+}
+
+.articles-div div {
+  margin: 10px 0 0 0;
+}
+
+.articles-div img {
+  border-radius: 1px;
+  box-shadow: 5px 10px 12px rgba(170, 170, 170, 0.8) !important;
+  width: 100%;
+}
+
+.article_date {
+  color: rgb(231, 44, 44);
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 5px;
+}
+
+.footer {
+  padding-top: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  display: flex;
+}
+
+.footer-para-1 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 16px 0 0 0;
+}
+
+.flex-rows {
+  margin: 10px 0 0 0;
+}
+
+@media (min-width:768px) {
+  .flex-rows {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.boxes {
+  border-top: 1px solid #aaaaaa;
+  padding: 15px 15px 0 15px;
+}
+
+.box_1 {
+  flex-basis: 100%;
+}
+
+.box_2, 
+.box_3,
+.box_4 {
+  flex-basis: 32.5%;
+}
+
+.box_5 {
+  flex-basis: 100%;
+}
+
+.box_6,
+.box_7 {
+  flex-basis: 45%;
+}
+
+.box_8,
+.box_9,
+.box_10 {
+  flex-basis: 32.5%;
+}
+
+/* Box Content */
+.boxes a {
+  color: #000;
+  text-decoration: none;
+}
+
+.boxes img {
+  border-radius: 1px;
+  box-shadow: 5px 10px 12px rgba(170, 170, 170, 0.8);
+  width: 100%;
+}
+
+.boxes h3 {
+  margin-top: 0;
+}
+
+.boxes p {
+  margin-bottom: 12px;
+}
+
+.boxes div {
+  margin: 10px 0 0 0;
 }
