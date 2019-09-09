@@ -8,7 +8,7 @@ export default class Form extends Component {
 
   onSubmit = event => {
     event.preventDefault();
-    connection(this.state.search_term);
+    this.props.results(connection(this.state.search_term));
     this.setState({ search_term: "" });
   };
 
