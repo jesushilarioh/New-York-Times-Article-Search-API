@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import checkBoxes from "../functions/checkBoxes"
+import Article from "../component/Article";
 
 export default class Articles extends Component {
-
   render() {
+    const articles = this.props.articles;
+
     return (
       <div className="articles-div">
-        {
-          this.props.articles.map((article, id) => {
-            return checkBoxes(article, id)
-          })
-        }
+        {articles.map((article, id) => (
+            <Article article = { article } key = { id } />
+        ))}
       </div>
     );
   }

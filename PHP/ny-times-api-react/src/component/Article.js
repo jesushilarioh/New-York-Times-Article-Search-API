@@ -5,14 +5,18 @@ export default class Article extends Component {
     const article = this.props.article;
 
     return (
-      <a key={article.id} href="#">
-        <div>
-          <h3>{article.title}</h3>
-          <p>{article.body}</p>
-          <img src="" alt="" />
-          <p className="article-date"></p>
+      <div className="flex-rows">
+        <div className={"box_1 boxes"}>
+          <a href="#">
+            <div>
+              <h3>{article.title}</h3>
+              <p>{article.body}</p>
+              <img src="" alt="" />
+              <p className="article-date"></p>
+            </div>
+          </a>
         </div>
-      </a>
+      </div>
     );
   }
 }
