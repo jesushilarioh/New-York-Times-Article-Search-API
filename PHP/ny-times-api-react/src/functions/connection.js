@@ -1,5 +1,4 @@
 export default function connection(searchTerm) {
-  console.log(searchTerm);
   return [
     {
       id: 1,
@@ -9,22 +8,47 @@ export default function connection(searchTerm) {
     {
       id: 2,
       title: "Title here #2",
-      body: "body #1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+      body: "body #2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
     },
     {
       id: 3,
       title: "Title here #3",
-      body: "body #1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+      body: "body #3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
     },
     {
       id: 4,
       title: "Title here #4",
-      body: "body #1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+      body: "body #4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
     },
     {
       id: 5,
       title: "Title here #5",
-      body: "body #1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+      body: "body #5 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+    },
+    {
+      id: 6,
+      title: "Title here #6",
+      body: "body #6 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+    },
+    {
+      id: 7,
+      title: "Title here #7",
+      body: "body #7 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+    },
+    {
+      id: 8,
+      title: "Title here #8",
+      body: "body #8 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+    },
+    {
+      id: 9,
+      title: "Title here #9",
+      body: "body #9 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
+    },
+    {
+      id: 10,
+      title: "Title here #10",
+      body: "body #10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium culpa laboriosam, iste, nesciunt molestias corporis ipsam expedita, impedit assumenda provident voluptas nam pariatur temporibus ab porro. Architecto, voluptas nemo. Explicabo!"
     }
   ];
 }

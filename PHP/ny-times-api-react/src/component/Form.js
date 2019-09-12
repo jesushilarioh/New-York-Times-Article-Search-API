@@ -20,26 +20,33 @@ export default class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit}>
-        <div className="input-group input-group-lg mb-3">
-          <input
-            className="form-control"
-            type="text"
-            id="search_term"
-            placeholder="Search..."
-            name="search_term"
-            aria-label="search_term"
-            aria-describedby="search_term"
-            value={this.state.search_term}
-            onChange={this.onChange}
-          />
-          <div className="input-group-append">
-            <button className="input-group-text" id="search_term" type="submit">
-              Search
-            </button>
+      <div>
+        <form onSubmit={this.onSubmit}>
+          <div className="input-group input-group-lg mb-3">
+            <input
+              className="form-control"
+              type="text"
+              id="search_term"
+              placeholder="Search..."
+              name="search_term"
+              aria-label="search_term"
+              aria-describedby="search_term"
+              value={this.state.search_term}
+              onChange={this.onChange}
+            />
+            <div className="input-group-append">
+              <button
+                className="input-group-text"
+                id="search_term"
+                type="submit"
+              >
+                Search
+              </button>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+        <h4>Results for ... {this.state.search_term}</h4>
+      </div>
     );
   }
 }

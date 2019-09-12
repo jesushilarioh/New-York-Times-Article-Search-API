@@ -17,7 +17,6 @@ class App extends Component {
       <div className="App container">
         <h1 className="main-title">New York Times | Article Search</h1>
         <Form results={this.results} />
-        <h4>Results for ...</h4>
         <Articles articles={ this.state.articles }/>
         <Footer />
       </div>
