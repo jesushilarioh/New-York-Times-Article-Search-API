@@ -1,8 +1,3 @@
-<!--<form action="results.php" method="post">
- <p>Search Term: <input type="text" name="search_term" /></p>
- <p><input type="submit" /></p>
-</form>-->
-
 <!doctype html>
 <html lang="en">
 
@@ -21,7 +16,6 @@
   <meta name="description"
     content="A New York Times article search engine, that integrates the NY times article search a API.">
   <meta name="author" content="Jesus Hilario H.">
-
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -43,7 +37,6 @@
     content="A New York Times article search engine, that integrates the NY times article search a API.">
   <meta property="twitter:image"
     content="https://jesushilarioh.com/ny-times-api-v2/images/new-york-times-article-search-api.png">
-
   <link href="main.css" rel="stylesheet">
 </head>
 
@@ -51,8 +44,8 @@
 
   <div class="container">
     <h1 class="main-title"><a href="./index.php">New York Times | Article Search</a></h1>
-    <form action="results.php" method="post">
 
+    <form action="results.php" method="post">
       <div class="input-group input-group-lg mb-3">
         <input type="text" id="search_term" class="form-control" placeholder="Search..." name="search_term"
           aria-label="search_term" aria-describedby="search_term">
@@ -60,7 +53,6 @@
           <button class="input-group-text" id="search_term" type="submit">Search</button>
         </div>
       </div>
-
     </form>
 
     <div class="footer">
@@ -76,11 +68,7 @@
       </div>
     </div>
 
-
   </div>
-
-
-
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
